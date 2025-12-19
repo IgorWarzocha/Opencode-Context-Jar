@@ -8,10 +8,6 @@
 
 Consolidates file operations, prevents context bloat, and maintains clean conversation history.
 
-[![npm version](https://badge.fury.io/js/%40opencode%2Fcontext-jar.svg)](https://badge.fury.io/js/%40opencode%2Fcontext-jar)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
-
 </div>
 
 ## What It Does
@@ -87,9 +83,7 @@ Example summary output:
 
 ## Installation
 
-```bash
-npm install @opencode/context-jar
-```
+Drop it in your ./opencode/plugin/ directory and point your opencode.json to it. Work in progress - not yet published to npm.
 
 ## Development
 
