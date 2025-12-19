@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@opencode/context-jar",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Intelligent context management plugin for OpenCode",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "dev": "opencode plugin dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "context-management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorWarzocha/Opencode-Context-Jar.git"
+  },
+  "author": "Howaboua",
+  "license": "MIT",
+  "dependencies": {
+    "gpt-tokenizer": "^3.0.0",
+    "jsonc-parser": "^3.3.1"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "latest",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
